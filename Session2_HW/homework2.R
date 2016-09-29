@@ -3,6 +3,14 @@
 # Author: Gregory Dannay
 # Last modified: 22 September 2016
 
+##### Comment
+# Great job, the comments are clear, the code is well documented, and you took
+# shot at all of the questions! It looks like my questions were unclear,
+# since everyone did this, but you should have had a second layer of loops
+# for different values of p. Also, watch out, you calculated average wealth
+# over time, not average TERMINAL wealth, which is the wealth in the terminal
+# period. Overall great work.
+
 #QUESTION 1
 #We define a different p for every loop by taking a random value
 
@@ -22,7 +30,7 @@ for(t in 1:T){
   u <- runif(1)
   # A random probability of win
   p <- runif(1)
-  
+
   if(u <= 1 - p){
     x[t] <- 0
     w[t+1] <- w[t] - 1
@@ -133,7 +141,7 @@ for(t in 1:T){
   u <- runif(1)
   # A random probability
   p <- runif(1)
-  
+
   if(u <= 1 - p){
     x[t] <- 0
     w[t+1] <- w[t] - 1
