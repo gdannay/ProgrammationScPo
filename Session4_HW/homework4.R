@@ -45,16 +45,18 @@ beta
 
 # Now add this line to the plot
 plot(out)
-abline(lm(out[,2]~out[,1]), col="red") # regression line (y~x) 
+abline(lm(out[,2]~out[,1]), col="red") # regression line (y~x)
 abline(a=0, b=beta, col="blue")
 
+##### Comment
+# as mentioned in class, this is because of the a=0.
 # Even though I get a matrix with 1s and x, I didn't manage to get the same solution
 # and I can't figure out why...
 
 
 # QUESTION 3
 
-#We just have to add a third random variable following a normal distribution by adding a Mu and 
+#We just have to add a third random variable following a normal distribution by adding a Mu and
 #changing the 2x2 matrix to a 3x3 matrix
 
 # Set the correlation parameter and mean
@@ -78,8 +80,10 @@ X
 W <- out[,3]
 W
 
+##########Comment
 # Again I am blocked because I don't know how to input the variable into the calculation
-
+# Here you take y to be one column and x to be two columns from out plus a
+# column of ones, then the steps are identical
 
 # QUESTION 4
 
@@ -96,7 +100,7 @@ i <- 1
 c <- 0
 
 # We create a double loop that is going to fill the matrix with the right values
-while(i<l){ 
+while(i<l){
   SIGMA[i]=1
   while(c<l){
     SIGMA[i+c]=beta

@@ -1,4 +1,10 @@
+Tyler's Comments
+
 2016.09.25 - Nice job! Thanks for giving all the homeworks a try. Additioanlly
 your code is really nicely commented and documented. It's very good! Take
 a look at the corrections to see what I expected from the problems, but keep
 up the good work!
+
+2016.10.03 - HW4 - Nice job Gregory. The matrix calculations take a bit of
+getting used to, so take a look at the solution and compare your answer. I
+think the last question was unclear for most people.
