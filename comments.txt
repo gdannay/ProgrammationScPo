@@ -8,3 +8,5 @@ up the good work!
 2016.10.03 - HW4 - Nice job Gregory. The matrix calculations take a bit of
 getting used to, so take a look at the solution and compare your answer. I
 think the last question was unclear for most people.
+
+2016.10.25 - HW5 - Great job. Hope the tests went well. Have a good break!
