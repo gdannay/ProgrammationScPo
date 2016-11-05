@@ -10,3 +10,13 @@ getting used to, so take a look at the solution and compare your answer. I
 think the last question was unclear for most people.
 
 2016.10.25 - HW5 - Great job. Hope the tests went well. Have a good break!
+
+2016.11.05 - HW7 and HW8 - only 7 submitted. I looked at your code and if
+you are trying to calculate the proportion of each gender killed, you should
+consider what will be the dimension of your result. You should get a single
+number (a scalar) representing the number of men killed divided by the total
+number of deaths. You could calculate this by summing the gender column
+and dividing by its length. If you would then like to associate this number
+to each individual based on their gender you could create a new column and
+fill it conditionally. I hope you give this another try and let me know how
+it goes!

@@ -2,7 +2,9 @@
 
 #Import the data on the deaths in GoT
 
-mydir <- "C:\\Users\\Gregory\\Desktop\\Programmation\\Sciences Po\\ProgrammationScPo\\Session7_HW\\data\\"
+#mydir <- "C:\\Users\\Gregory\\Desktop\\Programmation\\Sciences Po\\ProgrammationScPo\\Session7_HW\\data\\"
+mydir <- getwd()
+mydir <- paste0(mydir, "/gdannay/Session7_HW/data/")
 data_deaths <- read.csv(paste(mydir, "character-deaths.csv", sep=""))
 
 ### QUESTION 4 ###
